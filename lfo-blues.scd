@@ -1,0 +1,1 @@
+{ SinOsc.ar( 80 * [1,1.0001] * SinOsc.kr(1/2, 3/4 * 2pi).range(1,2) * Duty.kr(2,0,Dseq([6,6,8,8,6,6,9,8]/6,inf)) ) * LFPulse.kr(4,0,0.3) * 0.1}.play;
