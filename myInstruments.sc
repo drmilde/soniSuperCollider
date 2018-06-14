@@ -1,4 +1,4 @@
-// fetter stereo pass pulse
+// fetter stereo bass pulse
 (
 SynthDef(\bass,
 	{|out=0, freq=100, amp=0.1, a = 0.01, r = 0.2, mod = 5, d = 0.15|
